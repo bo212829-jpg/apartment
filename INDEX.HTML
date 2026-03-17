@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BRIGHTON GRAND NEW HOTEL</h1>
+    <nav>
+      <ul>
+        <li><a href="#rooms">ROOMS</a></li>
+        <li><a href="#menu">FOOD MENU</a></li>
+        <li><a href="#booking">BOOKING</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="rooms">
+    <h2>ACCOMODATION</h2>
+    <div class="room">
+      <h3>Deluxe Room</h3>
+      <p>Spacious room with king-size bed, Free Wi-Fi, and Balcony view.</p>
+      <p class="price"> KSH 10,000 per night</p>
+    </div>
+    <div class="room">
+      <h3>Standard Room</h3>
+      <p>Comfortable room with queen-size bed and free breakfast.</p>
+      <p class="price"> KSH 8,000 per night</p>
+    </div>
+    <div class="room">
+      <h3>Suite</h3>
+      <p>Luxury suite with living area, jacuzzi, and premium service.</p>
+      <p class="price">KSH 20,0000 per night</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>FOOD MENU</h2>
+    <ul class="menu-list">
+      <li>Grilled Chicken - KSH 1115</li>
+      <li>Vegetable Pasta - KSH 1112</li>
+      <li>Beef Steak - KSH 2220</li>
+      <li>Caesar Salad - KSH 1110</li>
+      <li>Fresh Juice -1115</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Stay</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="room">Select Room:</label>
+      <select id="room">
+        <option>Deluxe Room - $120</option>
+        <option>Standard Room - $80</option>
+        <option>Suite - $200</option>
+      </select>
+
+      <label for="checkin">Check-in Date:</label>
+      <input type="date" id="checkin" required>
+
+      <label for="checkout">Check-out Date:</label>
+      <input type="date" id="checkout" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Grand Paradise Hotel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
